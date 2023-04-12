@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - name: db
-          image: postgres:11.00-alpine
+          image: postgres:10.00-alpine
           ports:
             - containerPort: 5432
               name: db
